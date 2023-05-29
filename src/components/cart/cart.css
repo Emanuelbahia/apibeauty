@@ -1,0 +1,36 @@
+.container-table-cart{
+    padding:0 3vh;
+    background-color: #eeeeee42;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.align{
+    text-align: center;
+}
+.product-cart-h2{
+    padding: 2vh 0;
+    text-decoration: underline;
+}
+
+ /*media queries tablet*/
+
+ @media (min-width: 481px){
+    .container-table-cart{
+        padding: 0 5vh;
+        height: 80vh;
+    }
+    .product-cart-h2{
+        padding: 3vh 0;
+    }
+    
+ }
+
+ /*media queries pc*/
+
+@media (min-width: 1024px){
+    .container-table-cart{
+        padding: 0 10vh;
+    }
+}

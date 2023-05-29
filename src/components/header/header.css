@@ -1,0 +1,134 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Great+Vibes&family=Rubik&family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Great+Vibes&family=Tangerine:wght@700&display=swap');
+
+.container-header{
+    width: 100vw;
+    height: 15vw;
+    background-color: #222831;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.font-logo{
+    font-family: 'Tangerine', cursive;
+    background-color: #EEEEEE;
+    border-radius: 50%;
+    padding: 1.5vw 1.5vw 0.5vw 0.5vw;
+    height: 10vw;
+    font-size: 5vw;
+    font-weight: bold;
+}
+.font-h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 5vw;
+    color: #EEEEEE;
+    margin-left: 2vw;
+    margin-bottom: 0;
+}
+.container-logo-title{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 2vh;
+}
+.dropdown{
+    margin-right: 4vw;
+}
+.menu{
+    padding: 0.5vw 1.3vw;
+}
+.no-line{
+    text-decoration: none;
+}
+.wraper-links{
+    display: none;
+}
+.container-menu-cart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 2vh;
+}
+.div-cart{
+    display: flex;
+    align-items: center;
+}
+.icon-cart{
+    color: #eeeeee;
+    margin-left: 0.5vh;
+    font-size: 3vh;
+}
+.count-cart{
+    border-radius: 50%;
+    background: #eeeeee;
+    padding: 0.4vw 1vw;
+    font-size: 1.4vh;
+}
+
+ /*media queries tablet*/
+
+ @media (min-width: 481px){
+    .font-logo{
+        height: 7vw;
+        font-size: 3vw;
+    }
+    .font-h1{
+        font-size: 4vw;
+    }
+    .container-header{
+        height: 10vw;
+    }
+    .container-menu-cart{
+        padding-right: 5vh;
+    }
+    .container-logo-title{
+        padding-left: 5vh;
+    }
+}
+
+
+/*media queries pc*/
+
+@media (min-width: 1024px){
+    .dropdown{
+        display: none;
+    }
+    .h4-link-header{
+        color: #EEEEEE;
+        margin-bottom: 0;
+        margin-right: 5vh;
+        font-size: 2vh;
+        text-decoration: none;
+    }
+    .h4-link-header:hover{
+        color: #D65A31;
+        transform: scale(1.2);
+    }
+    .wraper-links{
+        width: 70vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .font-logo {
+        height: 7vh;
+        font-size: 3.5vh;
+        padding: 1vh 1.5vh;
+    }
+    .font-h1 {
+        font-size: 4vh;
+        margin-left: 2vh;
+    }
+    .container-header {
+        height: 10vh;
+    }
+    .container-logo-title{
+        width: 30vw;
+        justify-content: center;  
+    }
+    .count-cart{
+        padding: 0.4vh 1vh;
+    }
+}

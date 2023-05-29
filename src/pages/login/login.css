@@ -1,0 +1,82 @@
+.container-login{
+    background-image:  url("https://concepto.de/wp-content/uploads/2019/10/cosmeticos-maquillaje-e1571597050506.jpg");
+    height: 85vh;
+    background-size: cover;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.absoluteLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imageLogin{
+    width: 100%;
+    height: 1000px;
+}
+.h2-login{
+    color: black;
+    margin: 2.5vw;
+    font-size: 2vw;
+    font-weight: bold;
+}
+.form-login{
+    width: 60vw;
+    border-radius: 10px;
+    padding: 4vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(6px);
+    box-shadow: -7px 8px 20px 0px black;
+}
+.label-login{
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    margin: 2vw;
+}
+.input-login{
+    width: 100%;
+    color: white;
+    background: none;
+    backdrop-filter: blur(5px);
+    border: 1px solid white;
+    box-shadow: 0 13px 21px rgba(55, 53, 53, 0.5);
+}
+.button-login{
+    width: 100%;
+    margin: 6vw 0 2vw;
+    background-color: #252525;
+    border: none;
+    border-radius: 5px;
+    color: #eeeeee;
+    height: 40px;
+}
+
+ /*media queries tablet*/
+
+ @media (min-width: 481px){
+    .form-login{
+        max-width: 400px;
+        padding: 4vh;
+    }
+    .label-login{
+        margin: 2vh;
+    }
+    .button-login{
+        margin: 6vh 0 2vh;
+    }
+}
+
+
+/*media queries pc*/
+
+@media (min-width: 1024px){
+    .container-login{
+        width: 80vw;
+        margin: auto;
+    }
+}

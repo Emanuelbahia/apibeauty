@@ -1,0 +1,107 @@
+.container-register{
+    background-image:  url("https://danaperfumerias.com/blog/wp-content/uploads/2021/06/de-que-estan-hechos-los-cosmeticos.jpg");
+    height: 85vh;
+    background-size: cover;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.h3-register{
+    font-size: 4vw;
+    padding: 2vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.form-register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vw 2vw 2vw 2vw;
+    border-radius: 10px;
+    width: 70vw;
+    box-shadow: 3px 4px 8px 0px white;
+    backdrop-filter: blur(8px);
+}
+.label-register{
+    width: 100%;
+    color: white;
+    margin: 1vw 0;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.field-register{
+    width: 100%;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    padding-left: 5px;
+    background: none;
+    border: 1px solid white;
+    box-shadow: 0 13px 21px rgba(55, 53, 53, 0.5);
+    color: #252525;
+}
+.button-register{
+    margin: 4vw 0 1vw 0;
+    background-color: #252525;
+    border-radius: 5px;
+    color: #eeeeee;
+    border: none;
+    padding: 1vh 2vh;
+}
+.p-error{
+    margin: 0;
+    color: white;
+}
+.div-label-field{
+    width: 90%;
+}
+
+ /*media queries tablet*/
+
+ @media (min-width: 481px){
+    .form-register{
+        width: 45vw;
+    } 
+}
+
+
+/*media queries pc*/
+
+@media (min-width: 1024px){
+    .container-register{
+        width: 80vw;
+        margin: auto;
+    }
+    .div-label-field{
+        width: 45%;
+    }
+    .form-register{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 15vw 0 8vw;
+        width: 55vw;
+        max-width: 750px;
+    }
+    .label-register{
+        margin: 1vw 0;
+    }
+    .field-register{
+        height: 3.5vh;
+    }
+    .button-register{
+        margin-top: 3vw;
+        margin-bottom: 0;
+        width: 45%;
+    }
+    .center-register{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}

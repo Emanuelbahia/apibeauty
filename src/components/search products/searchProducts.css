@@ -1,0 +1,107 @@
+.container-products-search{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #EEEEEE;
+}
+.div-detail-search-product{
+    width: 90vw;
+    margin-top: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h3-search-products{
+    font-size: 4vw;
+}
+.image-search-product{
+    width: 80vw;
+    object-fit: cover;
+    height: 70vw;
+    margin-bottom: 3vw;
+}
+.h4-search-product{
+    font-size: 3.5vw;
+}
+.h2-search-products{
+    background: #252525;
+    color: #EEEEEE;
+    padding: 1vw 7vw;
+    font-size: 5vw;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+.div-h2-search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #EEEEEE;
+    height: 15vw;
+}
+
+ /*media queries tablet*/
+
+ @media (min-width: 481px){
+    .h2-search-products {
+        padding: 0.5vh 4vh;
+        font-size: 3vh;
+    }
+    .div-detail-search-product{
+        width: 45vw;
+    }
+    .h3-search-products {
+        font-size: 2vw;
+    }
+    .image-search-product {
+        width: 55%;
+        object-fit: cover;
+        height: 30vw;
+        margin-bottom: 2vw;
+    }
+    .h4-search-product {
+        font-size: 1.5vw;
+    }
+    .container-products-search {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        background: #EEEEEE;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .div-h2-search{
+        height: 12vh;
+    }
+ }
+
+
+ /*media queries pc*/
+
+ @media (min-width: 1024px){
+    .div-h2-search{
+        justify-content: center;
+        padding-bottom: 2vh;
+    }
+    .div-detail-search-product {
+        width: 23vw;
+        margin-bottom: 4vw;
+        margin-top: 0;
+    }
+    .h3-search-products {
+        font-size: 2.2vh;
+    }
+    .image-search-product {
+        width: 76%;
+        object-fit: scale-down;
+        height: 30vh;
+        margin-bottom: 2vh;
+    }
+    .h4-search-product {
+        font-size: 2vh;
+    }
+
+ }
