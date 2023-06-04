@@ -3,8 +3,6 @@ import "./face.css"
 
 function Face() {
 
-   
-
     return ( 
         <>
             <Outlet/>

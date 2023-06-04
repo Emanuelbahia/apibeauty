@@ -1,10 +1,133 @@
- /*media queries tablet*/
-
- @media (min-width: 481px){
+.container-notfound{
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #292256 0%, #8446cf 70%, #a871d6 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
-
-
-/*media queries pc*/
-
-@media (min-width: 1024px){
+.container-numbers-moon {
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.moon{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background-color: rgb(232, 234, 95);
+    box-shadow: 1px 1px 20px 10px rgb(232, 234, 95);
+}
+.h2-number-moon{
+    font-size: 13vw;
+    color: #252525;
+}
+.h3-notfound{
+    color: #292256;
+    font-size: 3vw;
+    font-weight: 700;
+    font-family: cursive;
+}
+.h3-error{
+    font-size: 2vw;
+    color: rgb(232, 234, 95);
+}
+.button-back-home{
+    margin-top: 2vw;
+    padding: 0.5vw 1vw;
+    border: none;
+    border-radius: 10px;
+    background: #4b1a85;
+}
+.star1{
+    color: rgb(233, 235, 108);
+    font-size: 1vw;
+    position: absolute;
+    top: 5vw;
+    left: 10vw;
+}
+.star2{
+    color: rgb(233, 235, 108);
+    font-size: .8vw;
+    position: absolute;
+    top: 15vw;
+    right: 10vw;
+}
+.star3{
+    color: rgb(233, 235, 108);
+    font-size: .3vw;
+    position: absolute;
+    bottom: 5vw;
+    left: 10vw;
+}
+.star4{
+    color: rgb(233, 235, 108);
+    font-size: .8vw;
+    position: absolute;
+    top: 10vw;
+    left: 35vw;
+}
+.star5{
+    color: rgb(233, 235, 108);
+    font-size: 1vw;
+    position: absolute;
+    top: 3vw;
+    right: 10vw;
+}
+.star6{
+    color: rgb(233, 235, 108);
+    font-size: .6vw;
+    position: absolute;
+    bottom: 5vw;
+    right: 8vw;
+}
+.star7{
+    color: rgb(233, 235, 108);
+    font-size: .8vw;
+    position: absolute;
+    top: 15vw;
+    left: 5vw;
+}
+.star8{
+    color: rgb(233, 235, 108);
+    font-size: .5vw;
+    position: absolute;
+    top: 2vw;
+    left: 50vw;
+}
+.star9{
+    color: rgb(233, 235, 108);
+    font-size: .8vw;
+    position: absolute;
+    top: 20vw;
+    left: 27vw;
+}
+.star10{
+    color: rgb(233, 235, 108);
+    font-size: .5vw;
+    position: absolute;
+    bottom: 9vw;
+    right: 34vw;
+}
+.star11{
+    color: rgb(233, 235, 108);
+    font-size: .4vw;
+    position: absolute;
+    top: 20vw;
+    right: 20vw;
+}
+.star12{
+    color: rgb(233, 235, 108);
+    font-size: .7vw;
+    position: absolute;
+    top: 12vw;
+    right: 35vw;
+}
+.star13{
+    color: rgb(233, 235, 108);
+    font-size: .5vw;
+    position: absolute;
+    bottom: 16vw;
+    left: 34vw;
 }

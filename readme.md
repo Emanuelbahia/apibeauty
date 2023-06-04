@@ -1,36 +1,12 @@
-gris oscuro
-#222831
+Api beauty
 
-gris
-#393E46
+This is an online clothing and cosmetics store developed with JavaScript and React.
+Our platform offers a wide variety of fashion apparel and beauty products for men and women,
+allowing users to browse and shop for the items that suit their style and preferences.
+Shopping cart to select and manage the chosen products before making the payment.
 
-naranja
-#D65A31
+In the project directory, you can run:
 
-blanco
-#EEEEEE
+npm run dev
 
-npm i react-router-dom
-
-npm install react-icons --save
-
-npm i axios
-
-npm install react-bootstrap bootstrap
-
-npm i formik
-
-npm i yup
-
-npm i @reduxjs/toolkit react-redux
-
-<!-- fontawesome -->
-
-npm i --save @fortawesome/fontawesome-svg-core
-
-npm i --save @fortawesome/free-solid-svg-icons
-npm i --save @fortawesome/free-regular-svg-icons
-
-npm i --save @fortawesome/react-fontawesome@latest
-
-npm install @mui/material @emotion/react @emotion/styled
+Runs the app in the development mode. Open http://localhost:3000 to view it in the browser.

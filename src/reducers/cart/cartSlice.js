@@ -23,19 +23,8 @@ export const cartSlice = createSlice({
         (product) => product.id !== productId
       );
     },
-    /* totalPrice: (state, action) => {
-      [...state.productList, action.payload].reduce(
-        (acc, product) => acc + product.price.current.value,
-        0
-      );
-    }, */
   },
 });
-
-/* export const totalPrice = (productList) => {
-  productList.reduce((acc, product) => acc + product.price.current.value, 0);
-};
-console.log(totalPrice); */
 
 export const { addProductToCart, removeProductFromCart } = cartSlice.actions;
 
